@@ -17,6 +17,7 @@
     "build": {
       "name": "build",
       "command": "pnpm build",
+<<<<<<< HEAD
       "runAtStart": false
     },
     "lint": {
@@ -31,3 +32,9 @@
     }
   }
 }
+=======
+      
+    
+
+
+>>>>>>> 6f9e00d5b9496bb757edb2274e9c67cea972bacc
