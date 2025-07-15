@@ -6,7 +6,18 @@ import { Contact } from './Contact'
 import { Nav } from './Nav'
 import { MoviesList } from 'pages/MoviesList'
 import { ShowMovies } from 'pages/ShowMovies'
-
+import './App.css';
+import SideBar from ".SideBar";
+import 
+function App () {
+    return (
+        <div className ="flex text-center text-green-500 font-bold ">
+            Hallo custumer/member
+            </p>
+            </div>
+        
+    );
+}
 
 export const App = () => {
     return (
@@ -24,3 +35,4 @@ export const App = () => {
         </main>
     )
 }
+export default App;
