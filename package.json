@@ -1,9 +1,7 @@
 {
   "scripts": {
     "test": "jest"
-  }
-}
-{
+  },
   "dependencies": {
     "express-session": "^1.18.2",
     "global": "^4.4.0",
