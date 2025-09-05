@@ -3,6 +3,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "connect-sqlite3": "^0.9.16",
     "express-session": "^1.18.2",
     "global": "^4.4.0",
     "mongoose": "^8.18.0",
