@@ -35,15 +35,16 @@ export default function Contact() {
         </h1>
 
         {contact.twitter && (
-          <p>
-            <a
-              target="_blank"
-              href={`https://twitter.com/${contact.twitter}`}
-            >
-              {contact.twitter}
-            </a>
-          </p>
-        )}
+  <p>
+    <a
+      target="_blank"
+      rel="noopener noreferrer"
+      href={`https://twitter.com/${contact.twitter}`}
+    >
+      {contact.twitter}
+    </a>
+  </p>
+)}
 
         {contact.notes && <p>{contact.notes}</p>}
 
